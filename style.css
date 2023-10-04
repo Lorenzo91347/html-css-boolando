@@ -7,20 +7,22 @@
 
 .container {
     display: flex;
-    height: 1150px;
-    width: 80%;
+    height: 550px;
+    width: 50%;
     border: 2px solid black;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     margin: 40px auto 40px;
     flex-wrap: wrap;
+
 }
 
 .box {
-    height: 345px;
-    width: 240px;
-    border: 2px solid red;
-    margin: 10px 30px 10px;
-    object-fit: cover;
+    height: 250px;
+    width: 175px;
+    margin: 10px 10px 10px;
+}
 
+img {
+    width: 100%;
 }
