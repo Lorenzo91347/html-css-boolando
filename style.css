@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 1500px;
+    width: 80%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    margin: 40px auto 40px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 345px;
+    width: 240px;
+    border: 2px solid red;
+    margin: 10px 30px 10px;
+
+}
