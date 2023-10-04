@@ -16,6 +16,7 @@
 }
 
 .box {
+    position: relative;
     width: calc(100% / 3 - 20px);
     margin: 10px 10px 10px;
 }
@@ -38,4 +39,23 @@ p {
 .lined {
     display: inline;
     text-decoration: line-through;
+}
+
+.heart {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: white;
+    padding: 3px;
+}
+
+.heart:hover {
+    background-color: red;
+}
+
+.discount {
+    background-color: red;
+    color: white;
+    width: 20%;
+
 }
