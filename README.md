@@ -1,0 +1,1 @@
+This is an exercise summarizing pseudo elements and the flex function
